@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: #f4f6fc;
+        }
+
+        .container span {
+            display: block;
+        }
+
+        .txt1 {
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+            position: relative;
+            animation: text 3s 1;
+            background-color: #f4f6fc;
+        }
+        .txt2 {
+            font-size: 30px;
+
+        }
+
+        @keyframes text {
+            0% {
+                margin-bottom: -40px;
+            }
+            30% {
+                letter-spacing: 15px;
+                margin-bottom: -40px;
+            }
+
+            85% {
+                letter-spacing: 6px;
+                margin-bottom: -40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="txt1">Thanks for Watching</span>
+        <span class="txt2">Have a great day</span>
+    </div>
+</body>
+</html>
